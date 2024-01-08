@@ -4,24 +4,24 @@ from firebase_admin import db
 
 cred = credentials.Certificate("serviceAccountKey.json")
 firebase_admin.initialize_app(cred, {
-    'databaseURL': "https://face-recognition-94653-default-rtdb.firebaseio.com/"
+    'databaseURL': ""
 })
 
 ref = db.reference('Students')
 
 data = {
-    "2000140100044":
+    "2000140100890":
         {
-            "name": "Manogya Singh",
+            "name": "Shivam",
             "branch": "CS",
             "starting_year": 2020,
             "total_attendance": 0,
             "year": 4,
             "last_attendance_time": "2024-01-05 00:54:34"
         },
-    "2000140100123":
+    "2000140101230":
         {
-            "name": "Yashdeep Singh Maurya",
+            "name": "venus",
             "branch": "CS",
             "starting_year": 2020,
             "total_attendance": 0,
@@ -30,7 +30,7 @@ data = {
         },
     "963852":
         {
-            "name": "Anurag Agarwal",
+            "name": "Arun",
             "branch": "Computer Science And Engineering",
             "starting_year": 2020,
             "total_attendance": 0,
@@ -38,9 +38,9 @@ data = {
             "year": 4,
             "last_attendance_time": "2024-01-05 00:54:34"
         },
-    "2000140100107":
+    "20001401001007":
         {
-            "name": "Tanish Chauhan",
+            "name": "tarun",
             "branch": "CS",
             "starting_year": 2020,
             "total_attendance": 0,
